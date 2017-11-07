@@ -1,16 +1,16 @@
 
-import java.util.Scanner;
-
 public class HelloUser {
-String userName;
-public static void main(String userName) {
 
-	Scanner scanner1= new Scanner(System.in);
-	
-	System.out.print("Enter your name: ");
-	userName = scanner1.nextLine();
-}
-public static void greetUser(String userName) {
-	System.out.println("Hello"+userName+"!");
-}
+String userName;
+
+	public HelloUser(String userName) {
+		// TODO Auto-generated constructor stub
+		this.userName=userName;
+	}
+
+	public void greetUser() {
+		// TODO Auto-generated method stub
+		System.out.println("Hello "+userName+"!");
+	}
+
 }
